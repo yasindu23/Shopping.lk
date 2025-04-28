@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shopping.lk | Home</title>
+	<!-- Bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<script src="bootstrap/jquery.min.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- jQuery -->
+	<script src="jquery/jquery.min.js"></script>
+	<!-- bootsrap icon -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+	<!-- bootstrap 5 -->
+</head>
+
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-default navbar-main">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<!-- responsive icon bar -->
+				<button type="button" class="navbar-toggle responsive-btn" data-toggle="collapse" data-target="#ppp">
+					<span class="icon-bar" style="background-color:rgb(138, 129, 129)"></span>
+					<span class="icon-bar" style="background-color:rgb(138, 129, 129)"></span>
+					<span class="icon-bar" style="background-color:rgb(138, 129, 129)"></span>
+				</button>
+				<!-- brand-name -->
+				<a class="navbar-brand navbar-brand-name" href="index.html">Shopping.LK</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-responsive-btn-target" id="ppp"
+				style="border-color: #fffafa !important">
+				<ul class="nav navbar-nav navbar-list-me">
+					<li class="navbar-items active-me"><a class="navbar-items-inner-aTag" href="index.html">Home</a>
+					</li>
+					<!-- dropdown-menu -->
+					<li class="dropdown navbar-items"><a class="navbar-items-inner-aTag">Categories <span
+								class="caret"></span></a>
+						<div class="dropdown">
+							<div class="dropdown-content dropdown-menu">
+								<a data-toggle="collapse" href="#collapseExample">New Fashions <span
+										class="caret"></span></a>
+								<!-- collapse target -->
+								<div class="collapse" style="margin-left:10px !important; margin-right:10px !important"
+									id="collapseExample">
+									<a href="f-page/f-main.html">Men's wear</a>
+									<a href="f-page/f-main.html">Kids's wear</a>
+									<a href="f-page/f-main.html">Bags</a>
+									<a href="f-page/f-main.html">Sun glasses</a>
+								</div>
+								<a href="k-page/k-main.html">Kids Toys</a>
+								<a href="e-page/e-main.html">Electronic Devices</a>
+								<a href="s-page/s-page.html">Sports & Outdoor</a>
+							</div>
+						</div>
+					</li>
+					<li class="navbar-items"><a class="navbar-items-inner-aTag" href="ContactUs.html">Contact Us</a>
+					</li>
+					<li class="navbar-items"><a class="navbar-items-inner-aTag" href="Sign up.html">Sign up</a></li>
+				</ul>
+				<!-- navbar right -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="btn navbar-btn n-btn" href="Login.html">Log in</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- website main image -->
+	<img src="images/c1.jpg" width="100%" alt="loding faild..">
+
+	<div class="container" style="margin-top:15px">
+		<!-- search bar -->
+		<div class="row">
+			<div class="content">
+				<div class="input-group">
+					<input id="searchInput" type="search" placeholder="Search in SHOPPING.LK">
+					<span class="input-group-addon" id="form-btn" onclick="search()">
+						<svg style="color: white !important; margin-top:5px !important"
+							xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-search" viewBox="0 0 16 16">
+							<path
+								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+						</svg>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- category list -->
+		<div class="row" style="margin-top:15px">
+			<a href="f-page/f-main.html" class="anker">
+				<div class="col-md-3">
+					<div class="categorie-list" title="Fashions">
+						<img class="c-img" src="svg/bag.svg" style="width: 22px !important;" alt="loding faild">
+						<span>New Fashions</span>
+					</div>
+				</div>
+			</a>
+
+			<a href="k-page/k-main.html" class="anker">
+				<div class="col-md-3">
+					<div class="categorie-list" title="Kids Toys">
+						<img class="c-img" src="svg/rope.svg" style="width: 23px !important;" alt="loding faild">
+						<span>Kids Toys</span>
+					</div>
+				</div>
+			</a>
+
+			<a href="e-page/e-main.html" class="anker">
+				<div class="col-md-3">
+					<div class="categorie-list" title="Electronic Devices">
+						<img class="c-img" src="svg/laptop-.svg" style="width: 23px !important;" alt="loding faild">
+						<span>Electronic Devices</span>
+					</div>
+				</div>
+			</a>
+
+			<a href="s-page/s-page.html" class="anker">
+				<div class="col-md-3">
+					<div class="categorie-list" title="Sports & Outdoor">
+						<img class="c-img" src="svg/sports.svg" style="width: 23px !important;" alt="loding faild">
+						<span>Sports & Outdoor</span>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+
+	<div class="container" style="margin-top:45px; margin-bottom: 60px;">
+		<!-- flash sale timer -->
+		<div class="row">
+			<p id="sale-name">Fashion Sale</p>
+			<div id="time-out-sale">
+				<span id="active-sale">On sale now</span><span id="time-text">Ending in</span> <span id="hour"
+					class="blogs2">00</span>:<span id="minets" class="blogs2">00</span>:<span id="seconds"
+					class="blogs2">00</span>
+			</div>
+		</div>
+		<hr style="margin: 1px 1px 10px 1px;">
+
+		<!-- 4 -->
+		<div class="row" style="margin-bottom: 60px;">
+			<div class="col-sm-3 r-top">
+				<a href="s-page/Black & 46 Quick Dry Trekking Shoes Women Men Lightweight Sport.html" class="anker">
+					<div class="card">
+						<img src="images/sss.jpg" alt="Loding faild" class="card-img" style="width:100%">
+						<div class="container-me">
+							<h5 class="card-header">Black & 46 Quick Dry Trekking Shoes Women Men Lightweight.</h5>
+							<p class="card-money">Rs. 4,839</p>
+							<p class="card-text"><del>Rs. 6,732</del> <span class="discount">-28%</span> <span
+									class="card-country">China</span></p>
+							<i class="bi bi-star-fill star"></i>
+							<i class="bi bi-star-fill star"></i>
+							<i class="bi bi-star-fill star"></i>
+							<i class="bi bi-star-fill star"></i>
+							<i class="bi bi-star star"></i>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- js file -->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
